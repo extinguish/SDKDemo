@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Provide the basic register background -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp"></corners>
+            <solid android:color="@android:color/darker_gray"></solid>
+        </shape>
+    </item>
+
+    <item android:bottom="48dp">
+        <bitmap android:src="@drawable/hijack_theme_img"
+            android:gravity="top"
+            >
+        </bitmap>
+    </item>
+</layer-list>

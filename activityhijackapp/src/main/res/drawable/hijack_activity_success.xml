@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp">
+            </corners>
+            <solid android:color="#FAAFBA">
+            </solid>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/launcher_logo"
+        android:bottom="348dp"
+        android:left="148dp"
+        android:right="148dp"
+        android:top="148dp">
+        <bitmap android:src="@drawable/hijack_failed"
+            android:gravity="center">
+        </bitmap>
+    </item>
+
+</layer-list>

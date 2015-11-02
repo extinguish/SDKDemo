@@ -1,0 +1,1 @@
+include ':app', ':HijackSDK', ':activityhijackapp', ':serviceviewhijackapp'
